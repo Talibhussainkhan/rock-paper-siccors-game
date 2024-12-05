@@ -24,7 +24,7 @@ const drawGame = () =>{
     compScore ++;
     compScorePara.innerText = compScore
     // console.log("You lose");
-    msg.innerText = `You Win! ${compChoice} beats ${userChoice}`;
+    msg.innerText = `You Lose! ${compChoice} beats ${userChoice}`;
     msg.style.backgroundColor = "red";
    
    } 
